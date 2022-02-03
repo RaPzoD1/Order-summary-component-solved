@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue-color: hsl(225, 100%, 94%);
+    --bright-blue-color:  hsl(245, 75%, 52%);
+    --bright-blue-color-shadow:  hsl(245, 75%, 90%);
+    --very-pale-blue-color: hsl(225, 100%, 98%);
+    --desaturated-blue-color: hsl(224, 23%, 55%);
+    --dark-blue-color: hsl(223, 47%, 23%);
+}
+
+html, body {
+    height: 100%;
+}
+
+* {  
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-color: var(--pale-blue-color);
+}
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/pattern-background-mobile.svg) no-repeat top center fixed;
+    background-size: contain;
+}
+.summary-card {
+    max-width: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-image, .card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.card-details {
+    padding: 10px;
+}
+.card-details h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.card-description {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    background-color: var(--very-pale-blue-color);
+    border-radius: 15px;
+    align-items: center;
+}
+
+.card-details p {
+    color: gray;
+}
+
+.plan-box img {
+    width: 48px;
+    height: 48px;
+}
+
+
+.plan-box-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.plan-box-detail h3 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.plan-box a {
+    font-size: 0.85rem;
+    color: blueviolet;
+    font-weight: 900;
+}
+.plan-box a:hover {
+    text-decoration: none;
+}
+
+.payment-button {
+    background-color: var(--bright-blue-color);
+    margin: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 15px;
+    box-shadow: 0px 12px 10px var(--bright-blue-color-shadow) ;
+}
+
+.payment-button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.payment-button p {
+    font-size: 0.9rem;;
+    color: white;
+    font-weight: 700;   
+}
+
+.cancel-button {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: gray;
+}
+.cancel-button p:hover {
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media screen and (min-width: 475px) {
+    main {
+        background: url(./images/pattern-background-desktop.svg) no-repeat top center local ;
+        background-size: contain;
+    }
+}
