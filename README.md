@@ -26,13 +26,18 @@ Users should be able to:
 ### Screenshot
 
 Desktop
+![image](https://user-images.githubusercontent.com/25336634/152282541-91c1ad2c-646e-4a9c-bfbd-34071d738928.png)
+
 
 Mobile
 
+![image](https://user-images.githubusercontent.com/25336634/152282588-6a125dff-b19e-4b4e-857e-18c805097722.png)
+
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/RaPzoD1/Order-summary-component-solved)
+- Live Site URL: [netlify](https://61fb6031a79f9910f23b464d--confident-goldwasser-9c2ead.netlify.app/)
 
 ## My process
 
